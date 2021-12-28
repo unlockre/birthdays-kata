@@ -2,7 +2,7 @@
 
 ## Exercise
 
-Send a greetings email to all employees whose birthday is a given date loading them from a given repository, it is given as example a InMemoryDbClient, but **is not possible to modify this class to complete the exercise**.
+Send a greetings email to all employees whose birthday is a given date loading them from a given repository, it is given as example a PostgreDBClient, but **it does not work in a local environment**.
 
 The greetings email contains the following text:
 
