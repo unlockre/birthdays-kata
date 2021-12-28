@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter
 class BirthdaysKataTest {
 
     @Test
-    fun `given a date whose match one employee birthday must send one greetings email`() {
+    fun `given a date that matches with one employee birthday must send one greetings email`() {
         val date = LocalDate.parse("1980-07-20", DateTimeFormatter.ISO_DATE)
         val birthdaysKata = BirthdaysKata()
         birthdaysKata.sendNotifications(date)
@@ -16,7 +16,7 @@ class BirthdaysKataTest {
     }
 
     @Test
-    fun `given a date whose match no employee birthday must no send greetings email`() {
+    fun `given a date that matches with one employee birthday must no send greetings email`() {
         val date = LocalDate.parse("1966-09-23", DateTimeFormatter.ISO_DATE)
         val birthdaysKata = BirthdaysKata()
         birthdaysKata.sendNotifications(date)
